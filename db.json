@@ -1,0 +1,144 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "name": "Shape of You",
+      "artist": "Ed Sheeran",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/6e/8a/01/6e8a0189a3aa2651d25ced66c055bacd.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Blinding Lights",
+      "artist": "The Weeknd",
+      "genre": "Synthwave",
+      "link": "https://i.pinimg.com/236x/1c/0e/97/1c0e9710c8497a8d5c78f6005397dca2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/a7/5a/44/a75a445eff0edd7caae748ec88a68b96.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Peaches",
+      "artist": "Justin Bieber",
+      "genre": "R&B",
+      "link": "https://i.pinimg.com/236x/14/0d/a4/140da4846dc86bc4f7104b3728da235f.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Montero",
+      "artist": "Lil Nas X",
+      "genre": "Hip Hop",
+      "link": "https://i.pinimg.com/236x/c0/4b/a5/c04ba50dfa24206ea5afda3249d4004a.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Save Your Tears",
+      "artist": "The Weeknd",
+      "genre": "Synthwave",
+      "link": "https://i.pinimg.com/236x/f2/91/c2/f291c205f95ec0efd2da7322250e8799.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop Rock",
+      "link": "https://i.pinimg.com/236x/77/fe/51/77fe51bef65aa21b30f880043d3c3961.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Drivers License",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/21/cb/d2/21cbd2f03dfa96bf792d207e67985f93.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Butter",
+      "artist": "BTS",
+      "genre": "K-Pop",
+      "link": "https://i.pinimg.com/236x/ee/e6/67/eee6674036a19e70e2c8e4230e703ff7.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Kiss Me More",
+      "artist": "Doja Cat",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/ba/dd/20/badd20bbdde41a5aafccb2bf7492ae52.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Stay",
+      "artist": "The Kid LAROI & Justin Bieber",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/4f/d9/94/4fd994c3e084d26f9e5df370a59506b6.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/b2/38/5a/b2385ab24c9a1928aff1efcd39c1023f.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Middle Child",
+      "artist": "J Cole",
+      "genre": "Hip Hop",
+      "link": "https://i.pinimg.com/236x/fb/1a/27/fb1a270c83e0ec520f45efdd84bc4c53.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "genre": "Alternative",
+      "link": "https://i.pinimg.com/236x/5e/4e/0a/5e4e0a1b12ba1b5e8363afcdfde594e9.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Easy On Me",
+      "artist": "Adele",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/31/62/d2/3162d2a8947927981d0850bd8c81bcb7.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Shivers",
+      "artist": "Ed Sheeran",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/06/ff/21/06ff21645fe7946c5e0caf8934ddea41.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Need to Know",
+      "artist": "Doja Cat",
+      "genre": "R&B",
+      "link": "https://i.pinimg.com/236x/f9/dd/f5/f9ddf531f10b6f8a9e92507a584ebb38.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Smokin Out The Window",
+      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
+      "genre": "R&B",
+      "link": "https://i.pinimg.com/236x/bd/f8/77/bdf87714c88ff02a13ffc8f20ff011ee.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Cold Heart",
+      "artist": "Elton John & Dua Lipa",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/25/de/dd/25dedd09f836588c981fefd582ddd98a.jpg"
+    },
+    {
+      "id": "20",
+      "name": "My Universe",
+      "artist": "Coldplay X BTS",
+      "genre": "Pop",
+      "link": "https://i.pinimg.com/236x/e9/6c/d9/e96cd9e4b295d44c17bbd9ca7e6c5586.jpg"
+    }
+  ]
+}
