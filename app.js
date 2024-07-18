@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 fetch(`${url}`)
   .then((res) => res.json())
   .then((data) => displaySongList(data))
-  .then((data)=>addNewSong(data))
+  .then((data) => addNewSong(data));
 
 function displaySongList(songList) {
   const songs = document.getElementById("songNames");
@@ -17,7 +17,7 @@ function displaySongList(songList) {
   songList.forEach((song) => {
     let eachSong = document.createElement("li");
     eachSong.textContent = song.name;
-    songs.classList.add("slide-in")
+    songs.classList.add("slide-in");
     songs.appendChild(eachSong);
     eachSong.addEventListener("click", (event) => {
       event.preventDefault();
@@ -63,7 +63,7 @@ function downloadSong() {
   });
 }
 
-function addNewSong() {
+function handleSubmit() {
   const newSong = document.getElementById("songForm");
 
   newSong.addEventListener("submit", (event) => {
@@ -73,14 +73,14 @@ function addNewSong() {
       name: document.getElementById("nameInput").value,
       artist: document.getElementById("artistInput").value,
       genre: document.getElementById("genreInput").value,
-      link: document.getElementById("linkInput").value
+      link: document.getElementById("linkInput").value,
     };
 
     fetch(`${url}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Accept": "application/json"
+        Accept: "application/json",
       },
       body: JSON.stringify(formData),
     })
@@ -103,11 +103,18 @@ function addNewSong() {
         newSongItem.addEventListener("mouseover", (event) => {
           event.target.style.backgroundColor = "#f0f0f0";
         });
-    
+
         newSongItem.addEventListener("mouseout", (event) => {
           event.target.style.backgroundColor = "";
         });
       })
       .catch((error) => console.log(error));
   });
+}
+
+function addNewSong() {
+  const newSong = document.getElementById("songForm");
+
+  newSong.removeEventListener("submit", handleSubmit);
+  newSong.addEventListener("submit", handleSubmit);
 }
