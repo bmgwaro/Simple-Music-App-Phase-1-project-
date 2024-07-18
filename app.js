@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/songs";
+const url = "https://json-server-vercel-u13o.vercel.app/songs";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch(`${url}/2`)
