@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 fetch(`${url}`)
   .then((res) => res.json())
   .then((data) => displaySongList(data))
-  .then((data) => addNewSong(data))
+  .then((data) => addNewSong(data));
 
 function displaySongList(songList) {
   const songs = document.getElementById("songNames");
@@ -80,11 +80,16 @@ function addNewSong() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Accept": "application/json",
+        Accept: "application/json",
       },
       body: JSON.stringify(formData),
     })
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return res.json();
+      })
       .then((newSong) => {
         const songsList = document.getElementById("songNames");
         const newSongItem = document.createElement("li");
