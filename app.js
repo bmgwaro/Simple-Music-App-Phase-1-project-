@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 fetch(`${url}`)
   .then((res) => res.json())
   .then((data) => displaySongList(data))
-  .then((data) => addNewSong(data));
+  .then((data) => addNewSong(data))
 
 function displaySongList(songList) {
   const songs = document.getElementById("songNames");
@@ -63,7 +63,7 @@ function downloadSong() {
   });
 }
 
-function handleSubmit() {
+function addNewSong() {
   const newSong = document.getElementById("songForm");
 
   newSong.addEventListener("submit", (event) => {
@@ -110,11 +110,4 @@ function handleSubmit() {
       })
       .catch((error) => console.log(error));
   });
-}
-
-function addNewSong() {
-  const newSong = document.getElementById("songForm");
-
-  newSong.removeEventListener("submit", handleSubmit);
-  newSong.addEventListener("submit", handleSubmit);
 }
