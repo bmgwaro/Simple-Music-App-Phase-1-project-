@@ -56,3 +56,4 @@ A message "This song has been downloaded successfully" will be displayed under t
 - Enter the song name, artist, genre, and link in the form located at the bottom of the page.
 - Click the "Add Song" button to add the new song to the playlist. This sends a POST request to the server with the new song's data.
 - The new song will be added to the song list, and you can click on it to view its details just like the existing songs.
+_NB: When adding a new song to the list, you will have to refresh the page in order for it to show up._
